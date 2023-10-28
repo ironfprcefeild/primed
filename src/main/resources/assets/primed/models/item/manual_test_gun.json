@@ -1,0 +1,16 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    128,
+    128
+  ],
+  "overrides": [
+    {
+      "predicate": {
+        "pulling": 0
+      },
+      "model": "primed:item/quantrite_heavy_railgun"
+    }
+  ]
+}

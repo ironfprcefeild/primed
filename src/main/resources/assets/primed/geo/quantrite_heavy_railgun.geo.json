@@ -1,0 +1,170 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [1, 0, -1], "size": [0, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "leftarm",
+					"pivot": [13, -6, 10],
+					"cubes": [
+						{"origin": [11, -10, 8], "size": [4, 12, 4], "uv": [18, 29]}
+					]
+				},
+				{
+					"name": "biggerthreat2",
+					"parent": "leftarm",
+					"pivot": [13, -10, 10],
+					"rotation": [0, 0, -90],
+					"cubes": [
+						{"origin": [12, -11, 6], "size": [2, 2, 8], "uv": [50, 0]}
+					]
+				},
+				{
+					"name": "body",
+					"pivot": [-1, -1, 2.5],
+					"cubes": [
+						{"origin": [-3, -2, 4], "size": [4, 4, 4], "uv": [18, 34]},
+						{"origin": [-3, -4, -6], "size": [4, 4, 10], "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "charger",
+					"parent": "body",
+					"pivot": [-1, 0, 0]
+				},
+				{
+					"name": "chargeextend",
+					"parent": "charger",
+					"pivot": [0, -1, -13],
+					"cubes": [
+						{"origin": [-1, -2, -20], "size": [2, 2, 14], "uv": [18, 18]}
+					]
+				},
+				{
+					"name": "chargeextend2",
+					"parent": "charger",
+					"pivot": [-2, -1, -13],
+					"cubes": [
+						{"origin": [-3, -2, -20], "size": [2, 2, 14], "uv": [18, 2]}
+					]
+				},
+				{
+					"name": "chargelatch2",
+					"parent": "charger",
+					"pivot": [-2, 1, -13],
+					"cubes": [
+						{"origin": [-3, 0, -20], "size": [2, 2, 14], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "chargelatch",
+					"parent": "charger",
+					"pivot": [0, 1, -13],
+					"cubes": [
+						{"origin": [-1, 0, -20], "size": [2, 2, 14], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "shellconnector2",
+					"parent": "body",
+					"pivot": [-2.5, -1, -2],
+					"cubes": [
+						{"origin": [-3.5, -3, -3], "size": [2, 4, 2], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "shellport",
+					"parent": "body",
+					"pivot": [-1, 1, -1],
+					"cubes": [
+						{"origin": [-3, 0, -6], "size": [4, 2, 10], "uv": [28, 34]}
+					]
+				},
+				{
+					"name": "shellconnector",
+					"parent": "body",
+					"pivot": [0.5, -1, -2],
+					"cubes": [
+						{"origin": [-0.5, -3, -3], "size": [2, 4, 2], "uv": [18, 0]}
+					]
+				},
+				{
+					"name": "scopeconnector",
+					"parent": "body",
+					"pivot": [0.5, 1, 2.5],
+					"cubes": [
+						{"origin": [-0.5, -1, 1.5], "size": [2, 4, 2], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "scopeconnector2",
+					"parent": "body",
+					"pivot": [-2.5, 1, 2.5],
+					"cubes": [
+						{"origin": [-3.5, -1, 1.5], "size": [2, 4, 2], "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "scope",
+					"parent": "body",
+					"pivot": [-1, 3, 0],
+					"cubes": [
+						{"origin": [-3, 2, -4], "size": [4, 2, 8], "uv": [0, 46]}
+					]
+				},
+				{
+					"name": "biggerthreat",
+					"parent": "body",
+					"pivot": [-1, 0, 0],
+					"cubes": [
+						{"origin": [-2, -1, -4], "size": [2, 2, 8], "uv": [50, 0]}
+					]
+				},
+				{
+					"name": "rightarm",
+					"parent": "body",
+					"pivot": [0, -4, 10],
+					"cubes": [
+						{"origin": [-2, -10, 8], "size": [4, 12, 4], "uv": [18, 29]}
+					]
+				},
+				{
+					"name": "chargeorbit",
+					"parent": "body",
+					"pivot": [-1, 0, -9]
+				},
+				{
+					"name": "chargeprong2",
+					"parent": "chargeorbit",
+					"pivot": [-2.5, 0, -9],
+					"cubes": [
+						{"origin": [-3.5, -1, -14], "size": [2, 2, 10], "uv": [36, 0]}
+					]
+				},
+				{
+					"name": "chargeprong1",
+					"parent": "chargeorbit",
+					"pivot": [0.5, 0, -9],
+					"cubes": [
+						{"origin": [-0.5, -1, -14], "size": [2, 2, 10], "uv": [36, 18]}
+					]
+				}
+			]
+		}
+	]
+}
